@@ -9,11 +9,10 @@ This is a demo for NL to SQL with AI in sevaral ways:
 
 - langchain + create_sql_agent + postgres
 
-  Now this demo is hard coding the end-user question and do database query with langchain + create_sql_agent and response with correct data as following:
+  - Now this demo is hard coding the end-user question and do database query with langchain + create_sql_agent and response with correct data as following: 
 
-
-  ```
-> Entering new SQL Agent Executor chain...
+```
+ Entering new SQL Agent Executor chain...
 Action: sql_db_list_tables
 Action Input: userI should query the schema of the user table.
 Action: sql_db_schema
@@ -46,7 +45,7 @@ Final Answer: 以下是 "user" 表中的一些数据：
 ========打印结果
 {'input': '查询所有user', 'output': '以下是 "user" 表中的一些数据：\n\n| username | realname |\n|----------|----------|\n| Monica   | Li Jia   |\n| meng     | meng     |\n\n注意：仅显示了前10条记录。'}
 
-  ```
+```
   - Next Step
     - create a service to get user question
     - create a console with React to communicate with end user
