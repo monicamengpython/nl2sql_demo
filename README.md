@@ -28,6 +28,7 @@ This is a demo for NL to SQL with AI in sevaral ways:
 }
 ```
  
+ <video src="./langchain/images/langchain_sql_agent_demo.mov"></video>
   - entire llm log as following:
 
 ```
