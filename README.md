@@ -28,13 +28,15 @@ This is a demo for NL to SQL with AI in sevaral ways:
 }
 ```
 
-    - call the web service with the postman
+  - call the web service with the postman
 
-      - query with the correct table
+  query with the correct table
 
 ![correct_table](./langchain/images/correct_table.png)
 
-      - query with table not exists
+
+  query with table not exists
+
 ![correct_table](./langchain/images/incorrect_table_name.png)
 
 
@@ -75,5 +77,6 @@ Final Answer: 以下是 "user" 表中的一些数据：
 {'input': '查询所有user', 'output': '以下是 "user" 表中的一些数据：\n\n| username | realname |\n|----------|----------|\n| Monica   | Li Jia   |\n| meng     | meng     |\n\n注意：仅显示了前10条记录。'}
 
 ```
+  
   - Next Step
     - create a console with React to communicate with end user
