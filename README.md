@@ -14,9 +14,21 @@ This is a demo for NL to SQL with AI in sevaral ways:
   - create a sql excution server(inclduing OPEN API swagger) to connect to database and excute the sql statments - TBD
   - setup the database(postgres in this demo) - TBD
 
-- langchain + create_sql_agent + postgres
+- fastapi + langchain + create_sql_agent + postgres
 
-  - This demo is hard coding the end-user question now, and do database query with langchain + create_sql_agent and response with correct data as following: 
+  - this demo provide a web service to get end user question
+  - use langchain to understand user question and generate the sql statments
+  - use langchain's create_sql_agent to run the sql statments against database(currently postgres)
+  - web service reponse with the input and the data response as following: 
+
+```
+{
+    "input": "查询所有user",
+    "output": "Here are some users from the database:\n1. Username: Monica, Real Name: Li Jia\n2. Username: meng, Real Name: meng"
+}
+```
+ 
+  - entire llm log as following:
 
 ```
  Entering new SQL Agent Executor chain...
@@ -54,5 +66,4 @@ Final Answer: 以下是 "user" 表中的一些数据：
 
 ```
   - Next Step
-    - create a service to get user question
     - create a console with React to communicate with end user

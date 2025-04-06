@@ -13,6 +13,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew install python
 pip3 install langchain
+pip3 install langchain_community
 
 pip3 install dashscope
 brew install postgresql
@@ -24,6 +25,8 @@ pip3 install psycopg2
   - `cd nl2sql_demo/langchain/src`
   - `python3 main.py`
 
+
+`fastapi dev main.py`  
 ### Next Step
 
 - pack code langchain code as another container
