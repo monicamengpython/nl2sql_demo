@@ -27,9 +27,18 @@ This is a demo for NL to SQL with AI in sevaral ways:
     "output": "Here are some users from the database:\n1. Username: Monica, Real Name: Li Jia\n2. Username: meng, Real Name: meng"
 }
 ```
- 
- <video src="./langchain/images/langchain_sql_agent_demo.mov"></video>
-  - entire llm log as following:
+
+    - call the web service with the postman
+
+      - query with the correct table
+
+![correct_table](./langchain/images/correct_table.png)
+
+      - query with table not exists
+![correct_table](./langchain/images/incorrect_table_name.png)
+
+
+  - llm log sample as following:
 
 ```
  Entering new SQL Agent Executor chain...

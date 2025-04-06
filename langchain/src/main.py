@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-import nl2sql_demo_0406.langchain.src.langchain_demo as langchain_demo
+import langchain_demo
 
 class Item(BaseModel):
     question: str
