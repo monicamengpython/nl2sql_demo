@@ -33,4 +33,7 @@ npm run dev
 npm install axios --save
 npm run build
 npm run dev
+
+update file /react/chat/my-app/src/App.jsx
+access http://localhost:5173
 ```
