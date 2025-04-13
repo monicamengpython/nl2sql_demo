@@ -80,4 +80,10 @@ Final Answer: 以下是 "user" 表中的一些数据：
   
 ## create a console with React to communicate with end user
 
+
+
+https://github.com/user-attachments/assets/c86037c6-e458-4e76-b3b3-99c2913b244a
+
+
+
 <video src="./langchain/images/ai_agent_fastapi_react_demo.mp4" width="520" controls></video>
