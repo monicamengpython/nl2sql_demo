@@ -78,5 +78,6 @@ Final Answer: 以下是 "user" 表中的一些数据：
 
 ```
   
-  - Next Step
-    - create a console with React to communicate with end user
+## create a console with React to communicate with end user
+
+<video src="./langchain/images/ai_agent_fastapi_react_demo.mp4" width="520" controls></video>
